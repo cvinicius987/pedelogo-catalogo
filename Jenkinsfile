@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Checkout Source'){
             steps{
-                git url: 'https://github.com/cvinicius987/pedelogo-catalogo.git', branch: 'master'
+                git url: 'https://github.com/cvinicius987/pedelogo-catalogo.git', branch: 'main'
             }
         }
 
