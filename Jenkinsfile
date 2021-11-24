@@ -1,8 +1,6 @@
 pipeline{
-    agent any{
-        label "pedelogo-catalogo"
-    }
-
+    agent any
+    
     stages{
         stage('Build'){
             steps{
