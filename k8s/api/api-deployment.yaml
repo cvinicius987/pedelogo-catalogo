@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: cvinicius987/pedelogo-catalogo-jenkins:v2.0.0
+        image: cvinicius987/api-produto:{{tag}}
         ports:
         - containerPort: 80
           name: http
